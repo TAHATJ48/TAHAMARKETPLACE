@@ -1,0 +1,11 @@
+{
+  "PRODUCTS": "/",
+  "ORDERS": "/orders",
+  "REGISTER": "/register",
+  "LOGIN": "/login",
+  "LOGOUT": "/logout"
+
+
+
+
+}
