@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TAHAMARKETPLACE/static/css/main.69b46fff.chunk.css",
-    "main.js": "/TAHAMARKETPLACE/static/js/main.f86b0f79.chunk.js",
-    "main.js.map": "/TAHAMARKETPLACE/static/js/main.f86b0f79.chunk.js.map",
+    "main.css": "/TAHAMARKETPLACE/static/css/main.55f29838.chunk.css",
+    "main.js": "/TAHAMARKETPLACE/static/js/main.7b5816b8.chunk.js",
+    "main.js.map": "/TAHAMARKETPLACE/static/js/main.7b5816b8.chunk.js.map",
     "runtime-main.js": "/TAHAMARKETPLACE/static/js/runtime-main.95dcc3b0.js",
     "runtime-main.js.map": "/TAHAMARKETPLACE/static/js/runtime-main.95dcc3b0.js.map",
-    "static/js/2.46397efa.chunk.js": "/TAHAMARKETPLACE/static/js/2.46397efa.chunk.js",
-    "static/js/2.46397efa.chunk.js.map": "/TAHAMARKETPLACE/static/js/2.46397efa.chunk.js.map",
+    "static/js/2.64e20118.chunk.js": "/TAHAMARKETPLACE/static/js/2.64e20118.chunk.js",
+    "static/js/2.64e20118.chunk.js.map": "/TAHAMARKETPLACE/static/js/2.64e20118.chunk.js.map",
     "index.html": "/TAHAMARKETPLACE/index.html",
-    "static/css/main.69b46fff.chunk.css.map": "/TAHAMARKETPLACE/static/css/main.69b46fff.chunk.css.map",
-    "static/js/2.46397efa.chunk.js.LICENSE.txt": "/TAHAMARKETPLACE/static/js/2.46397efa.chunk.js.LICENSE.txt"
+    "static/css/main.55f29838.chunk.css.map": "/TAHAMARKETPLACE/static/css/main.55f29838.chunk.css.map",
+    "static/js/2.64e20118.chunk.js.LICENSE.txt": "/TAHAMARKETPLACE/static/js/2.64e20118.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.95dcc3b0.js",
-    "static/js/2.46397efa.chunk.js",
-    "static/css/main.69b46fff.chunk.css",
-    "static/js/main.f86b0f79.chunk.js"
+    "static/js/2.64e20118.chunk.js",
+    "static/css/main.55f29838.chunk.css",
+    "static/js/main.7b5816b8.chunk.js"
   ]
 }
