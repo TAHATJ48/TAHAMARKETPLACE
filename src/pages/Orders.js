@@ -18,6 +18,7 @@ export default class Orders extends React.Component {
     this.setState({ orders: json.data, loading: false });
   }
 
+  
   render() {
     if (this.state.loading) {
       return <div>loading...</div>;

@@ -12,12 +12,9 @@ const Main = () => {
   return (
     <MainWrapper>
       <Routes>
-
-
         <Route path='/' element={<Products/>} />
         <Route path='/Register' element={<Register/>} />
         <Route path='/Login' element={<Login/>} />
-
         <Route element={<ProtectedRoute />}> 
           <Route path='/Orders' element={<Orders/>} />
           <Route path='/Logout' element={<Logout/>} />
