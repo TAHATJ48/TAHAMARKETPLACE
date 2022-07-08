@@ -9,25 +9,37 @@ export default function Login() {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     
+    function refreshPage() {
+        window.location.reload(false);
+      }
+      const isAuth = getToken();
 
+
+
+      if(isAuth !== undefined && isAuth !==null){
+        navigate('/')
+        return(<p>You are logged In</p>)
+    } 
+    else{
     return (
         <div className='container'>
         <form onSubmit={handleSubmit(async (form) => {
             try {
                 let response = await LoginAPI(form)
                 localStorage.setItem('token', response.data.token)
-                 navigate('/orders')                
+                navigate('/login')                
             } catch(err) {
                 console.log(err);
                 navigate('/login')
             }
         })}>
+            <p className='announcement'>Compte prédéfini avec des commandes deja faites </p>
             <label className='label' htmlFor="email"><h2>Email</h2></label>
             <br/>
             <input 
                  className='form'
                 type="email" id='email'
-                defaultValue="khalid@email.com" 
+                defaultValue="tahajotey@gmail.com" 
                 {...register("email", { 
                     required: true,  
                     pattern: {
@@ -40,13 +52,14 @@ export default function Login() {
             {errors.email && <span>This field is required</span>} <br />
             <label className='label' htmlFor="password"><h2>Password</h2></label>
             <br/>
-            <input className='form' type="password" id='password' {...register("password", { required: true })} /> <br />
+            <input className='form' type="password"defaultValue="TikkaMassala" 
+ id='password' {...register("password", { required: true })} /> <br />
             {errors.password && <span>This field is required</span>} <br />
 
-            <input className='submit' type="submit" /> <br />
+            <input  className='submit' type="submit" /> <br />
 
         </form>
         </div> 
     )
 
-}
+}}

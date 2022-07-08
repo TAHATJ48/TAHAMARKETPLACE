@@ -343,3 +343,8 @@ table{
 .link:hover{
   transform: scale(1.1);
 }
+.announcement{
+  font-size: 12px;
+  color: pink;
+  background-color: #000;
+}

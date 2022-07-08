@@ -15,6 +15,7 @@ console.log(isAuth)
 } else {
     return (
       <>
+      <p className="announcement" >Petit bug il faut refresh manuellement pour afficher la navbar apres le login</p>
       <Link className="link" to="/Login">Login</Link>
       <Link className="link" to="/Register">Register</Link>
     </>
